@@ -1,0 +1,20 @@
+{
+  "name": "tiny-tasks",
+  "version": "1.0.0",
+  "description": "A tasks list side project to learn how localStorage works in browsers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kewishfagoe/tiny-tasks.git"
+  },
+  "keywords": [],
+  "author": "Kewish Fagoe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kewishfagoe/tiny-tasks/issues"
+  },
+  "homepage": "https://github.com/kewishfagoe/tiny-tasks#readme"
+}
