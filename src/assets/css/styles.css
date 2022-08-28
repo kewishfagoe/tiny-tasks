@@ -45,6 +45,183 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	color: var(--text-color);
 	background-color: var(--main-bg-color);
+
+  background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .7)), url(./../images/bg-min.jpg);
+  background-size: cover;
+}
+
+header {
+  margin-bottom: 2rem;
+  padding: 1rem 1rem;
+}
+
+main {
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+footer a {
+  margin: 0px 10px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+div.date {
+  text-align: center;
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+}
+
+p {
+  overflow-wrap: anywhere;
+}
+p.completed {
+  text-decoration: line-through;
+}
+
+.tasks-listing {
+  background: var(--main-bg-color);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+div.task-container label {
+  margin-right: 30px;
+}
+
+div.add-task {
+  display: flex;
+  align-items: center;
+  height: 45px;
+  border-bottom: 2px solid #ebebeb;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+div.add-task button {
+  margin-right: 15px;
+  height: 100%;
+  width: 100px;
+  border: 0px;
+  background: #fff;
+  border: 1px solid rgb(138, 136, 134);
+  border-radius: 3px;
+}
+
+button#update-task-btn {
+  display: none;
+}
+
+div.add-task button:hover {
+  background-color: rgb(243, 242, 241);
+}
+
+div.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+div.task-container {
+  display: flex;
+}
+
+input[type=checkbox] {
+  margin-right: 30px;
+}
+
+span.plus-icon {
+  margin-left: 15px;
+}
+
+div.task-buttons {
+  display: flex;
+}
+
+span.update-button {
+  background: #2690e0;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+span.update-button:hover {
+  background: #2aa3ff;
+  cursor: pointer;
+}
+
+span.delete-button {
+  background: red;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+span.delete-button:hover {
+  background: rgba(255, 0, 0, 0.61);
+  cursor: pointer;
+}
+
+#taskinput {
+  margin-left: 30px;
+  width: 100%;
+  margin-right: 30px;
+  height: 100%;
+  background: #fcfcfc;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: unset;
+}
+
+
+div.notification {
+  border-radius: 2px;
+  padding: 15px;
+  background-color: #000;
+  color: #fcfcfc;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  font-weight: bold;
+  transition: opacity 1s ease-out;
+  opacity: 0;
+  overflow: hidden;
+}
+
+div.show {
+  opacity: 1;
 }
 
 
@@ -52,28 +229,31 @@ body {
   Mobile Styles
 ************************/
 @media only screen and (max-width: 400px) {
-	body {
-		background-color: #F09A9D;
+	/* body { */
+		/* background-color: #F09A9D; */
 		/* Red */
-	}
+	/* } */
 }
 
 /************************
   Tablet Styles
 ************************/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-	body {
-		background-color: #F5CF8E;
+	/* body { */
+		/* background-color: #F5CF8E; */
 		/* Yellow */
-	}
+	/* } */
 }
 
 /************************
   Desktop Styles
 ************************/
 @media only screen and (min-width: 961px) {
-	body {
-		background-color: #B2D6FF;
+	/* body { */
+		/* background-color: #B2D6FF; */
 		/* Blue */
-	}
+	/* } */
+    .tasks-listing, h2 {
+      max-width: 900px;
+    }
 }

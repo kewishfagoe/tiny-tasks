@@ -48,6 +48,7 @@ npm run build
 
 - [Check icon used](https://www.reshot.com/free-svg-icons/item/check-SKUA2PMXWE/)
 - [Check favicon used](https://www.reshot.com/free-svg-icons/item/check-all-74WFCQUGE2/)
+- Background Photo by [Alin Andersen](https://unsplash.com/@onixion) on [Unsplash](https://unsplash.com/photos/f0SgAs27BYI)
 
 ## License
 
