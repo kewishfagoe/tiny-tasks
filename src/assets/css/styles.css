@@ -46,7 +46,7 @@ body {
 	color: var(--text-color);
 	background-color: var(--main-bg-color);
 
-  background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .7)), url(./../images/bg-min.jpg);
+  background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .7)), url(./../images/bg-min.webp);
   background-size: cover;
 }
 
