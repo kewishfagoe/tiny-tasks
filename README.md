@@ -4,6 +4,8 @@
 
 A tasks list side project to learn how localStorage works in browsers. 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7fe692d4-1d9b-472a-b1e5-5985a679baa6/deploy-status)](https://app.netlify.com/sites/tiny-tasks/deploys)
+
 ![](screenshot.png)
 
 
