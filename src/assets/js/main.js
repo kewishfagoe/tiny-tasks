@@ -251,6 +251,11 @@ function editTask() {
 		existingUpdateBtn.remove();
 	}
 
+	let existingCancelBtn = document.querySelector(".cancel-update-btn");
+	if (existingCancelBtn != null) {
+		existingCancelBtn.remove();
+	}
+
 	// hide add btn
 	let addBtn = document.querySelector("#add-task-btn");
 	addBtn.style.display = "none";
