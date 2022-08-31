@@ -137,7 +137,31 @@ function OnCheckboxChange() {
 }
 
 function deleteTask() {
-	
+	// remove updateBtn if exists
+	let updateBtn = document.querySelector(".update-task-btn");
+	if (updateBtn != null) {
+		updateBtn.remove();
+	}
+
+	// show addBtn if not visible
+	let addBtn = document.querySelector("#add-task-btn");
+	if (addBtn.style.display == "none") {
+		addBtn.style.display = "block";
+	}
+
+	// remove cancelBtn if exists
+	var cancelBtn = document.querySelector(".cancel-update-btn");
+	if (cancelBtn != null) {
+		cancelBtn.remove();
+	}
+
+	let taskInput = document.querySelector("#taskinput");
+	// taskInput.value = "";
+	taskInput.focus();
+	taskInput.removeEventListener("keyup", addEnterKeyUpdateFunction, true);
+	taskInput.addEventListener("keyup", addEnterKeyFunction, true);
+
+	// deleteTask
 	var deleteBtn = this;
 
 	// update UI, remove parent task node
