@@ -46,7 +46,8 @@ body {
 	color: var(--text-color);
 	background-color: var(--main-bg-color);
 
-  background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .7)), url(./../images/bg-min.webp);
+  /* background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .7)), url(./../images/bg-min.webp); */
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
   background-size: cover;
 }
 
