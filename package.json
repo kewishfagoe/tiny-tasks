@@ -28,7 +28,7 @@
     "cssnano": "^5.1.13",
     "html-minifier": "^4.0.0",
     "mkdirp": "^1.0.4",
-    "postcss": "^8.4.16",
+    "postcss": "^8.4.31",
     "postcss-cli": "^10.0.0",
     "rimraf": "^3.0.2",
     "terser": "^5.15.0"
